@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  new_array = [groceries.values.join(" ,")]
+  groceries.values.map {|value| value}
 end
